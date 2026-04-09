@@ -1,0 +1,9 @@
+.preloader {
+  position: fixed;       // ← key: sits on top of everything
+  top: 0;
+  left: 0;
+  height: 100dvh;
+  width: 100vw;
+  z-index: 100;          // above Landing's z-index: 2
+  background: #0c0c0c;
+}
