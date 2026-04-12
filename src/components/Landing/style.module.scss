@@ -6,8 +6,7 @@
   background: #111111;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-  padding-left: 40rem;
+  align-items: center;
   gap: 10rem;
   flex-direction: column;
   text-align: left;
@@ -21,11 +20,14 @@
     color: #f7f7f7;
   }
 
-  a {
-    text-decoration: underline;
-    font-size: 1.7rem;
-    font-weight: 500;
-    color: #f7f7f7;
+  .link {
+    margin-left: -500px;
+    a {
+      text-decoration: underline;
+      font-size: 1.7rem;
+      font-weight: 500;
+      color: #f7f7f7;
+    }
   }
 
   .scroll {

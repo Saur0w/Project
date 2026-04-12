@@ -24,8 +24,8 @@ export default function Landing() {
             yPercent: 110,
             stagger: 0.08,
             duration: 1,
+            delay: 2,
             ease: "power4.out",
-            delay: 0.3,
         });
 
         return () => split.revert();
@@ -43,7 +43,9 @@ export default function Landing() {
                     new experiences.
                 </p>
             </div>
-            <p>→<Link href="/">Let&#39;s Connect</Link></p>
+            <div className={styles.link}>
+                <p>→<Link href="/">Let&#39;s Connect</Link></p>
+            </div>
 
             <footer className={styles.scroll}>Scroll</footer>
 
